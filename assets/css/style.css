@@ -93,7 +93,7 @@ header {
     background: url("../images/z-axis-logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -238,7 +238,7 @@ footer {
 /* ----------------------------------------Personal Info */
 
 .personal-info-item {
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     display: block;
     clear: both;
 }
